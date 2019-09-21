@@ -44,6 +44,13 @@ import 'quill/dist/quill.bubble.css'
 // 将富文本编辑器，注册为全局可用的组件
 Vue.use(VueQuillEditor, /* { default global options } */ )
 
+// 导入时间线组件
+// import Timeline from './plugins/timeline/index.js'
+// import Timelineitem from './plugins/timeline-item/index.js'
+
+
+// Vue.use(Timeline)
+// Vue.use(Timelineitem)
 
 Vue.config.productionTip = false
 
